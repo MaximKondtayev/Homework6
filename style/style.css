@@ -1,0 +1,62 @@
+.background {
+    
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 100px;
+    min-width: 1140px;
+    margin-top: 70px;
+}
+
+
+.icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 63px;
+    background-color: #2a69a6;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #2a69a6;
+    transition: 0.4s;
+
+}
+
+.fon:hover {
+    background-color: white;
+}
+
+.icon svg {
+    max-width: 50%;
+    min-height: 50%;
+    fill: #ffffff;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.icon:hover {
+    background-color: #ffffff;
+}
+
+.icon:hover svg {
+    fill: #2a69a6;
+}
+
+p {
+    max-width: 60%;
+    margin: 0 auto;
+    font-family: 'Proxima Nova ExCn Lt';
+}
+
+h2{
+    font-family: 'Proxima Nova Cn Rg';
+    text-transform: uppercase;
+}
+
+
+
+
